@@ -20,8 +20,9 @@ function Header() {
                     <SearchIcon/>
                     <input placeholder="search facebook" type="text"/>
                 </div>
+            </div>
                 <div className="header__center">
-                    <div className="header__option">
+                    <div className="header__option header__option__active">
                         <HomeIcon/>
                     </div>
                     <div className="header__option">
@@ -41,6 +42,7 @@ function Header() {
                     <div className="header__info">
                         <Avatar />
                         <h4>Shashank</h4>
+                    </div>
                         <IconButton>
                          <AddIcon />
                         </IconButton>
@@ -53,10 +55,8 @@ function Header() {
                         <IconButton>
                             <ExpandMoreIcon />
                         </IconButton>
-                        
                     
-                    </div>
-                </div>
+                
              </div>
             
         </div>
