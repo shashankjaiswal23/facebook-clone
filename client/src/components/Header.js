@@ -22,7 +22,7 @@ function Header() {
                 </div>
             </div>
                 <div className="header__center">
-                    <div className="header__option header__option__active">
+                    <div className="header__option header__option--active">
                         <HomeIcon/>
                     </div>
                     <div className="header__option">
