@@ -1,0 +1,17 @@
+.sidebarRow{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    cursor: pointer;
+}
+.sidebarRow:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.sidebarRow>.sideBarItems{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.sidebarRow>.icon{
+     color: #2e81f4;
+ }
